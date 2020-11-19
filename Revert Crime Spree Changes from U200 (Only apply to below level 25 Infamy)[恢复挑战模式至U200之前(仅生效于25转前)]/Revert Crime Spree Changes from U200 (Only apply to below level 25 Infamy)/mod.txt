@@ -3,9 +3,10 @@
 	"description": "Revert the changes about crime spree what is created in update 200.",
 	"author": "TK7",
 	"contact": "https://steamcommunity.com/id/2010TK7",
-	"version": "2.1",
+	"version": "3",
 	"blt_version": 2,
 	"hooks": [
-		{"hook_id" : "lib/managers/menu/infamytreeguinew", "script_path" : "mod.lua"}
+		{"hook_id" : "lib/managers/crimespreemanager", "script_path" : "crimespreemanager.lua"},
+		{"hook_id" : "lib/managers/menu/infamytreeguinew", "script_path" : "infamytreeguinew.lua"}
 	]
 }
