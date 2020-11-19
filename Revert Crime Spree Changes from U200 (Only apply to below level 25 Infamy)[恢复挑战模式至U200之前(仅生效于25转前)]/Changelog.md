@@ -1,3 +1,11 @@
+3.1
+
+Fix a crash bug.
+
+修复了导致崩溃的bug。
+
+-----
+
 3
 
 Every level can catch up the bonus if infamy rank < 25.
@@ -28,3 +36,4 @@ Only Infamy rank < 25 can active.
 Just can get infamy rank if crime spree is on.
 
 仅仅是允许在挑战模式开启时转生。||
+

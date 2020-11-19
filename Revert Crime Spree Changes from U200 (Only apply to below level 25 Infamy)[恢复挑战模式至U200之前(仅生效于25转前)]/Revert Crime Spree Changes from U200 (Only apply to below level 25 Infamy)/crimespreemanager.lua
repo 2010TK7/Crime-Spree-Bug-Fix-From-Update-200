@@ -4,7 +4,7 @@ function CrimeSpreeManager:on_mission_completed(...)
 	function managers.experience:current_level()
 		return managers.experience:current_rank() >= 25 and OldExtraFunc(self) or 100
 	end
-	OldFunc(self)
+	OldFunc(self, ...)
 	managers.experience.current_level = OldExtraFunc
 end
 
